@@ -7,7 +7,7 @@ Odyssey 2024: The Speaker and Language Recognition Workshop
 <img src="./pixit.png" alt="PixIT" width="800" />
 
 ## Samples
-Listen to samples of long-form separated sources [here](https://joonaskalda.github.io/pixit/). These are obtained by performing inference with the ToTaToNet trained on AMI-SDM. The inputs are full audio files from AMI-SDM test set. Minute-long separation and diarization samples are extracted from overlap-heavy parts of the test files.
+Listen to samples of long-form separated sources [here](https://joonaskalda.github.io/PixIT/). These are obtained by performing inference with the ToTaToNet trained on AMI-SDM. The inputs are full audio files from AMI-SDM test set. Minute-long separation and diarization samples are extracted from overlap-heavy parts of the test files.
 
 ## Code and pretrained models 
 
