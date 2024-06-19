@@ -39,3 +39,15 @@ python eval_cpwer.py --references-dir /path/to/cpwer/reference/ --database-dir /
 ```
 
 On one A100-40gb, this should take roughly an hour to run.
+
+## Training your own model
+
+Installing required dependencies: 
+```
+pip install pyannote.audio[separation]==3.3.0
+```
+The following script trains a ToTaToNet on AMI-SDM according to the configurations of the paper. You will again need to have set up the AMI database with pyannote-audio as shown [here](https://github.com/pyannote/AMI-diarization-setup/).
+
+```
+python train.py --database-dir /path/to/ami-sdm/database.yml 
+```

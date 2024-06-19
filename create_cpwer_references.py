@@ -30,8 +30,8 @@ def main(input_dir, output_dir):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-i', '--input_dir', help='Input directory', required=True)
-    parser.add_argument('-o', '--output_dir', help='Output directory', required=True)
+    parser.add_argument('-i', '--input-dir', help='Input directory', required=True)
+    parser.add_argument('-o', '--output-dir', help='Output directory', required=True)
     args = parser.parse_args()
 
     main(args.input_dir, args.output_dir)

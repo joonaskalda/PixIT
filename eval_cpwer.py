@@ -112,9 +112,9 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--references_dir", type=str, required=True)
-    parser.add_argument("--database_dir", type=str, required=True)
-    parser.add_argument("--access_token", type=str, required=True)
-    parser.add_argument("--whisper_model", type=str, default="small.en")
+    parser.add_argument("--references-dir", type=str, required=True)
+    parser.add_argument("--database-dir", type=str, required=True)
+    parser.add_argument("--access-token", type=str, required=True)
+    parser.add_argument("--whisper-model", type=str, default="small.en")
     args = parser.parse_args()
     main(args)
