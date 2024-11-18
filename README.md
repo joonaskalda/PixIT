@@ -1,6 +1,7 @@
 # PixIT: Joint Training of Speaker Diarization and Speech Separation from Real-world Multi-speaker Recordings
 Authors: Joonas Kalda, Clément Pagés, Ricard Marxer, Tanel Alumäe, Hervé Bredin  
-Odyssey 2024: The Speaker and Language Recognition Workshop
+Odyssey 2024: The Speaker and Language Recognition Workshop  
+[Paper](https://www.isca-archive.org/odyssey_2024/kalda24_odyssey.pdf)
 
 > A major drawback of supervised speech separation (SSep) systems is their reliance on synthetic data, leading to poor real-world generalization. Mixture invariant training (MixIT) was proposed as an unsupervised alternative that uses real recordings, yet struggles with over-separation and adapting to long-form audio. We introduce PixIT, a joint approach that combines permutation invariant training (PIT) for speaker diarization (SD) and MixIT for SSep. With a small extra requirement of needing SD labels, it solves the problem of over-separation and allows stitching local separated sources leveraging existing work on clustering-based neural SD. We measure the quality of the separated sources via applying automatic speech recognition (ASR) systems to them. PixIT boosts the performance of various ASR systems across two meeting corpora both in terms of the speaker-attributed and utterance-based word error rates while not requiring any fine-tuning.
 
